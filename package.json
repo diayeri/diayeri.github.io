@@ -1,0 +1,13 @@
+{
+  "name": "diayeri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/diayeri/diayeri.github.io.git",
+  "author": "diayeri",
+  "license": "Apache License",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
