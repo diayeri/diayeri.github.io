@@ -1,1 +1,1 @@
-{"version":3,"sources":["src/style.scss"],"names":[],"mappings":"AAAA;EACE","file":"diayeri.github.io.e31bb0bc.css","sourceRoot":"..","sourcesContent":["body {\n  color: red;\n}\n"]}
+{"version":3,"sources":["src/style.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACH,KAAK,EAAE,GAAG,GACX","file":"diayeri.github.io.e31bb0bc.css","sourceRoot":"..","sourcesContent":["body {\n  color: red;\n}\n"]}
