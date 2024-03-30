@@ -421,3 +421,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .parcel-cache
+dist
