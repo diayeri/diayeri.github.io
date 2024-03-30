@@ -423,3 +423,5 @@ yarn-error.log*
 # parcel-bundler cache (https://parceljs.org/)
 .parcel-cache/
 .cache
+
+.dist
