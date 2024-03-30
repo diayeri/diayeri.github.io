@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.css","src/App.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;ACHA;AACA;AACA;AACA;AACA","file":"src.a2b27638.css","sourceRoot":"..","sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n","body {\n  @apply bg-black;\n  color: red;\n}\n"]}
