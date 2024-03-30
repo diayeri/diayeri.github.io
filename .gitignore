@@ -419,3 +419,7 @@ FodyWeavers.xsd
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache/
+.cache
