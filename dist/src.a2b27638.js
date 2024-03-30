@@ -28914,11 +28914,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/index.scss":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/index.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/style.scss":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/App.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -28930,7 +28930,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-require("./style.scss");
+require("./App.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28955,13 +28955,14 @@ var App = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", {
-        id: "App"
+        id: "App",
+        className: "font-mono text-4xl"
       }, "Hello World");
     }
   }]);
 }(_react.default.Component);
 var _default = exports.default = App;
-},{"react":"node_modules/react/index.js","./style.scss":"src/style.scss"}],"node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./App.css":"src/App.css"}],"node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 function loadBundlesLazy(bundles) {
   if (!Array.isArray(bundles)) {
@@ -29056,7 +29057,7 @@ var _default = exports.default = reportWebVitals;
 
 var _react = _interopRequireDefault(require("react"));
 var _client = _interopRequireDefault(require("react-dom/client"));
-require("./index.scss");
+require("./index.css");
 var _App = _interopRequireDefault(require("./App"));
 var _reportWebVitals = _interopRequireDefault(require("./reportWebVitals"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -29066,8 +29067,8 @@ root.render(_react.default.createElement(_react.default.StrictMode, null, _react
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-(0, _reportWebVitals.default)();
-},{"react":"node_modules/react/index.js","react-dom/client":"node_modules/react-dom/client.js","./index.scss":"src/index.scss","./App":"src/App.js","./reportWebVitals":"src/reportWebVitals.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+// reportWebVitals();
+},{"react":"node_modules/react/index.js","react-dom/client":"node_modules/react-dom/client.js","./index.css":"src/index.css","./App":"src/App.js","./reportWebVitals":"src/reportWebVitals.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29092,7 +29093,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55344" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61204" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
